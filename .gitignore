@@ -1,0 +1,28 @@
+# IDE / Python cache
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# keep top-level folders, ignore their contents
+/data/*
+/log/*
+/result/*
+/weight/*
+
+# but keep placeholder files
+!/data/.gitkeep
+!/log/.gitkeep
+!/result/.gitkeep
+!/weight/.gitkeep
+
+# common large files
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.bin
+*.safetensors
+*.h5
+*.pkl
